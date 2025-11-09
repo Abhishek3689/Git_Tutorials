@@ -1,9 +1,9 @@
 from calci import addition,substraction,Multiplication
-
+from area_file import rectangle_area_calculate
 print("""
 Enter 1. Addition
       2. Substraction
-      3. Multiplication """)
+      3. Rectangle Area """)
 
 user_input=int(input("enter options :"))
 print("enter value of first and second number")
@@ -16,8 +16,8 @@ elif user_input==2:
     print("substraction of number is ")
     res=substraction(a,b)
 elif user_input==3:
-    print("Multiplication of number is ")
-    res=Multiplication(a,b)
+    print("area of rectangle is ")
+    res=rectangle_area_calculate(a,b)
 else:
     res=None
 print(res)
