@@ -1,4 +1,8 @@
-def calculator1(a:int,b:int):
+def addition(a:int,b:int):
     return a+b
 
-calculator1
+def substraction(a:int,b:int):
+    return a-b
+
+def Multiplication(a:int,b:int):
+    return a*b
